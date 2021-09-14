@@ -1,0 +1,10 @@
+cores = {'limpa':'\033[m', 'amarelo':'\033[33m', 'verde':'\033[32m', 'azul':'\033[34m', 'vermelho': '\033[31m'}
+nome = str(input('Digite o seu nome completo: ')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúsculas é {}{}{}'.format(cores['amarelo'], nome.upper(), cores['limpa']))
+print('Seu nome em minúsculas é {}{}{}'.format(cores['azul'], nome.lower(), cores['limpa']))
+dividido = nome.split()
+print('Seu nome tem ao todo {}{}{} letras'.format(cores['vermelho'], len(nome) - nome.count(' '), cores['limpa']))
+#print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
+separa = nome.split()
+print('Seu primeiro nome é {}{}{} e ele tem {}{}{} letras'.format(cores['amarelo'], separa[0], cores['limpa'], cores['vermelho'], len(separa[0]), cores['limpa']))
