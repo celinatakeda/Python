@@ -1,5 +1,2 @@
-# Exercício Python 022: 
-Crie um programa que leia o nome completo de uma pessoa e mostre: 
-- O nome com todas as letras maiúsculas e minúsculas.
-- Quantas letras ao todo (sem considerar espaços).
-- Quantas letras tem o primeiro nome.
+# Exercício Python 018: 
+Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
