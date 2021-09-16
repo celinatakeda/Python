@@ -7,7 +7,8 @@ computador = randint(0, 2)
 print('''Suas opções:
 [ {}{}0{} ] PEDRA
 [ {}{}1{} ] PAPEL
-[ {}{}2{} ] TESOURA'''.format(cores['magenta'], negrito['bold'], cores['limpa'], cores['magenta'], negrito['bold'], cores['limpa'], cores['magenta'], negrito['bold'], cores['limpa']))
+[ {}{}2{} ] TESOURA'''.format(cores['magenta'], negrito['bold'], cores['limpa'], cores['magenta'], negrito['bold'],
+                              cores['limpa'], cores['magenta'], negrito['bold'], cores['limpa']))
 jogador = int(input('Qual a sua jogada? '))
 if jogador > 2:
     print('{}JOGADA INVÁLIDA!{}'.format(cores['red'], cores['limpa']))
