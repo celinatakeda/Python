@@ -1,2 +1,2 @@
-# Exercício Python 032: 
-Faça um programa que leia um ano qualquer e mostre se ele é bissexto.
+# Exercício Python 077: 
+Crie um programa que tenha uma tupla com várias palavras (não usar acentos). Depois disso, você deve mostrar, para cada palavra, quais são as suas vogais.
